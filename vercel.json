@@ -1,0 +1,10 @@
+{
+  "cleanUrls": true,
+  "rewrites": [
+    { "source": "/_next/static/:path*", "destination": "/assets/studio.jector.ai/_next/static/:path*" },
+    { "source": "/images/:path*", "destination": "/assets/studio.jector.ai/images/:path*" },
+    { "source": "/fonts/:path*", "destination": "/assets/studio.jector.ai/fonts/:path*" },
+    { "source": "/foodstyler/:path*", "destination": "/assets/studio.jector.ai/foodstyler/:path*" },
+    { "source": "/pricing/:path*", "destination": "/assets/studio.jector.ai/pricing/:path*" }
+  ]
+}
